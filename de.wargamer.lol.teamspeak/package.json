@@ -1,0 +1,38 @@
+{
+  "name": "LoLSpeak",
+  "description": "LoL Themes for TeamSpeak by Wargamer-Senpai",
+  "version": "1.0.0",
+  "identifier": "de.wargamer.lol.teamspeak",
+            "engines": {
+              "teamspeak": 1
+                  },
+	"homepage": "https://community.teamspeak.com/u/Wargamer",
+        	"repository": {
+        		"url": "https://github.com/Wargamer-Senpai/teamspeak5-Theme-Anime",
+        		"type": "git",
+            "directory": "teamspeak5-Theme-Anime"
+        	       },
+           "community": {
+             "server": "jset.xyz"
+           },
+  "image": "1manofCulture.gif",
+  "license": "MIT",
+          "author": {
+            "name": "Wargamer",
+            "url": "https://community.teamspeak.com/u/Wargamer",
+            "userTag": "Wargamer@myteamspeak.com"
+              },
+
+
+  "content": {
+
+        "themes": [
+                {
+                  "name": "Jinx [SFW]",
+                  "source": "Jinx_SFW.css",
+                  "image": "Jinx_SFW.png",
+                  "apiVersion": 1
+                }
+         ]
+    }
+}

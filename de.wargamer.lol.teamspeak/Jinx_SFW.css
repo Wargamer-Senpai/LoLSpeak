@@ -1,0 +1,41 @@
+@import url(1Default.css);
+/*#B03063*/
+
+:root {
+  --theMain-Color: #59F6E3;
+  --custom-color-accent-light: var(--theMain-Color); /*main accent*/
+  --custom-color-accent-dark: var(--theMain-Color);           
+  --custom-color-slider1: var(--theMain-Color);
+  --custom-color-slider2: var(--theMain-Color);
+  --tsv-font-subtitle-color: #ED5FCB !important; /* for spacer etc...*/
+  --tsv-chat-link-color: #d800ff !important; /* Link in chat */
+  --tsv-highlight-color: #59F6E3 !important;
+}
+
+/*Image Background   ~Wargamer-Senpai*/
+.ts-server-tree-item-root {
+    background-image:url(Jinx_small.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+
+}
+/*Image Background at Dashboard and Settings*/
+.ts-background-hexes-container {
+  background-image:url(),
+                   url(Jinx_SFW.png);
+
+
+    background-position: 50% 142%, -4% 100% ;
+    background-repeat: no-repeat;
+    background-size: 50%, 23% 50% !Important;
+}
+
+/*Remove image from chat Background*/
+.ts-chat-container .ts-background-hexes-container {
+    background: url();
+}
+/*Changes color of channel names*/
+.ts-server-tree-channel-info{
+  color: #59F6E3
+}
