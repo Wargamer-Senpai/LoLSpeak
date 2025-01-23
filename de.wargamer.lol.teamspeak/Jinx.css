@@ -41,12 +41,3 @@
   color: #59F6E3
 }
 
-/* SIDEBAR HEADER */
-
-.tsv-highlight.tsv-header {
-  background: linear-gradient(to bottom, #d800ff 0%, #59F6E3 100%, #59F6E3 100%);
-}
-
-.tsv-highlight.tsv-header:before {
-  background: linear-gradient(to bottom, rgb(0 0 0 / 30%) 90%, #59F6E3 100%);
-}
