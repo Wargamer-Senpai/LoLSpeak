@@ -3,6 +3,7 @@
 
 :root {
   --theMain-Color: #59F6E3;
+  --custom-color-accent2: #ed5fcb;
   --custom-color-accent-light: var(--theMain-Color); /*main accent*/
   --custom-color-accent-dark: var(--theMain-Color);           
   --custom-color-slider1: var(--theMain-Color);
@@ -14,21 +15,21 @@
 
 /*Image Background   ~Wargamer-Senpai*/
 .ts-server-tree-item-root {
-    background-image:url(Jinx_small.png);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: 95%;
+    background-image:url(Jinx_small.png) !important;
+    background-position:center !important;
+    background-repeat: no-repeat !important;
+    background-size: 95% !important;
 
 }
 /*Image Background at Dashboard and Settings*/
-.ts-background-hexes-container {
+.tsv-settings-categories {
   background-image:url(),
-                   url(Jinx_SFW.png);
+                   url(Jinx.png) !important;
 
 
-    background-position: 50% 142%, -4% 100% ;
-    background-repeat: no-repeat;
-    background-size: 50%, 23% 50% !Important;
+    background-position: 50% 142%, -4% 100% !important;
+    background-repeat: no-repeat !important;
+    background-size: 50%, 23% 50% !important;
 }
 
 /*Remove image from chat Background*/
