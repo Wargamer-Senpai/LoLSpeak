@@ -48,7 +48,7 @@
     --tsv-chat-link-color: #044f6b !important;
     --ts-chat-system-highlight-text-color: var(--custom-color-accent-light) !important;
     --tsv-content-branding-fancy-bg: var(--tsv-content-branding-bg) !important;
-
+    --ts-third-font-color: var(--custom-color-accent2) !important;
 }
 
 .ts-server-tree-item-leaf.client.self {
