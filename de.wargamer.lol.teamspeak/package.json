@@ -28,9 +28,9 @@
 
         "themes": [
                 {
-                  "name": "Jinx [SFW]",
-                  "source": "Jinx_SFW.css",
-                  "image": "Jinx_SFW.png",
+                  "name": "Jinx",
+                  "source": "Jinx.css",
+                  "image": "Jinx.png",
                   "apiVersion": 1
                 }
          ]
