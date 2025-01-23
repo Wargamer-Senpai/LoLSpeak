@@ -16,6 +16,7 @@
     --custom-color-off-white: #000000;
     --custom-color-accent-light: #ff2323;
     --custom-color-accent-dark: #fd434a;
+    --custom-color-accent2: #e84e4e;
     --custom-color-slider1: #ff0000;
     --custom-color-slider2: #fa17ca;
     --custom-color-secondary-text: #bebebe;
@@ -50,6 +51,14 @@
 
 }
 
+.ts-server-tree-item-leaf.client.self {
+    color: var(--custom-color-accent-light) !important;
+}
+
+.ts-title-logo {
+    --tsv-icon-tint: var(--custom-color-accent2) !important;
+}
+
 .ts-checkbox-checkmark-path {
     stroke: var(--custom-color-accent-light) !important;
 }
@@ -73,9 +82,9 @@
 
 .tsv-icon-contact-status-favorite, .tsv-icon-chat-room-status-favorite {
     z-index: 10;
-    left: 13px !important;
+    left: -5px !important;
     top: 4px !important;
-    stroke: rgba(0,0,0,.7);
+    stroke: rgba(0, 0, 0, .7);
     stroke-width: 1.3px;
     transform: scale(1);
 }
